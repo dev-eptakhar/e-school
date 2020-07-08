@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-school</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <img class="img-fluid" src="img/ICON/logo2.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#courses">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#qna">QnA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Scholarship">Scholarship</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-green btn-sign" href="#" data-toggle="modal" data-target="#modal" style="color: #fff;padding: 10px 30px;text-align: center;">Sign in</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="modal" tabindex="-1" role="dialog" id="modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Sign In</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form action="">
+                  <div class="">
+                    <div class="form-group">
+                      <label for="name">Username</label>
+                      <input type="text" class="form-control" id="name" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputEmail4">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email address">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPassword4">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4"  placeholder="Password">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Sign In</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="head-home">
+          <div class="row">
+            <div class="col-md-6">
+              <span class="first-text">Are you ready to learn?</span>
+              <h1>Learn With Fun</h1>
+              <h1>on <span class="h1 text-style">any sehendule</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum temporibus eum. Lorem ipsum dolor sit amet.</p>
+              <button class="btn btn-green">Get Started</button>
+            </div>
+            <div class="col-md-6 illus-img">
+              <img src="img/Photos/Illustration.png" alt="illus">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <section class="our-achiv">
+      <div class="container">
+        <div class="card-deck">
+          <div class="card">
+            <img src="img/ICON/book.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">1500+ Topic</h5>
+              <p class="card-text">Learn Anythings</p>  
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/ICON/Students.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">1800+ Syudents</h5>
+              <p class="card-text">Learn Anythings</p> 
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/ICON/Test.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">9K+ Test Token</h5>
+              <p class="card-text">Learn Anythings</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/ICON/Student.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">2000+ Student</h5>
+              <p class="card-text">Learn Anythings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses" id="courses">
+     <div class="container">
+      <h1 class="text-center mb-5">Online Courses</h1>
+      <div class="card-deck">
+        <div class="card">
+          <img src="img/Photos/Morder pyschology.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mordern Psychology</h5>
+            <p class="card-text">Designation</p>
+            <button class="btn btn-green">Buy Now</button>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><img src="img/ICON/calendar.png" alt="..."> Strat 20April,2020</small>
+            <small class="text-muted "><img src="img/ICON/people.png" alt="...">60 seats</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/Photos/Morder psyc.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mordern Psychology</h5>
+            <p class="card-text">Designation</p>
+            <button class="btn btn-green">Buy Now</button>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><img src="img/ICON/calendar.png" alt="..."> Strat 20April,2020</small>
+            <small class="text-muted "><img src="img/ICON/people.png" alt="...">60 seats</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/Photos/Morder pychons.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mordern Psychology</h5>
+            <p class="card-text">Designation</p>
+            <button class="btn btn-green">Buy Now</button>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><img src="img/ICON/calendar.png" alt="..."> Strat 20April,2020</small>
+            <small class="text-muted  justify-content-end"><img src="img/ICON/people.png" alt="...">60 seats</small>
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
+
+    <section class="qna" id="qna">
+      <div class="container">
+        <h1 class="text-center font-weight-bold mb-5 text-capitalize">Some common question anser</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  How many days i can aceess this course?
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How to contact you?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How to solve my any educational problem?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How many days support from this school?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Course ended get certificate?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    
+    <section class="testimonial">
+      <div class="container">
+        <h1 class="text-center">Testimonial</h1>
+        <img src="img/Photos/Man.png" alt="..." class="float-left">
+        <p class="text-justify align-items-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tempore veritatis non laudantium deserunt harum voluptatum suscipit ea quibusdam consequatur optio eius cum aliquid nam deleniti earum dolorum vero, explicabo facere unde similique facilis nemo modi doloremque! Est omnis illo natus temporibus deserunt consequuntur non similique impedit, eaque consequatur in.</p>
+      </div>
+    </section>
+
+    <section class="scholar" id="Scholarship">
+      <div class="container">
+        <h1 class="text-center font-weight-bold mb-5">Apply for Scholarship</h1>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">First name</label>
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your first name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Last Name</label>
+              <input type="text" class="form-control" id="inputPassword4" placeholder="Enter your last name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail43">Email Address</label>
+            <input type="email" class="form-control" id="inputEmail43" placeholder="Enter your Email address">
+          </div>
+          <div class="form-group">
+            <label for="inputfile">Higher Education Certificate</label>
+            <input type="file" class="form-control form-control-file" id="inputfile" placeholder="Enter your Email address">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Select you courses</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Select course...</option>
+              <option>web design</option>
+              <option>web development</option>
+              <option>app development</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="inputState">Country</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>Bangladesh</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Write your selft in short description</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                I agree all terms and conditions
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Apply</button>
+        </form>
+      </div>
+    </section>
+
+    
+    <section>
+      <div class="container">
+        <h1 class="text-center font-weight-bold mb-5 text-capitalize">say our student</h1>
+        <div id="carouselExampleCaptions" class="carousel slide mb-5" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner bg-dark">
+            <div class="carousel-item active">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Hasib Mahmud</h5>
+                <p class="text-justify">Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nam minus earum laboriosam quidem consectetur molestias. Laboriosam quos in accusamus voluptate fugiat exercitationem rem eaque perferendis a? Nulla, voluptate eum recusandae debitis quod aliquam, perferendis voluptatibus odit voluptatem quas molestiae possimus est illo eveniet dolorem enim eaque adipisci? Voluptas, quos porro! At saepe incidunt enim adipisci illum hic molestias quisquam natus sint debitis facere, ducimus obcaecati, corporis odit laborum quia vitae non velit odio quos possimus reiciendis laboriosam harum. Omnis, animi. Alias ea accusamus omnis aut perspiciatis perferendis maxime! Ex quis esse voluptas deserunt optio similique facere maiores omnis sit.</p>
+              </div>
+            </div>
+            <div class="carousel-item bg-dark">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Al Mahmud</h5>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dicta? Consequuntur perspiciatis sapiente possimus, recusandae exercitationem minus pariatur tempora! Laborum deleniti corrupti repellat dolorem sapiente accusantium eaque ex praesentium! Cum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere laboriosam minima quibusdam distinctio perferendis est sunt voluptate harum eos. Sint modi doloribus omnis eos qui vel laudantium excepturi doloremque voluptate!</p>
+              </div>
+            </div>
+            <div class="carousel-item bg-dark">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>KM Johani Islam</h5>
+                <p class="text-justify">Praesent commodo cursus magna, vel scelerisque nisl consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod aliquid architecto maiores, nam ipsa magnam. Odio non asperiores reiciendis dolores. Modi praesentium nesciunt molestias animi ipsa maiores, enim tenetur a. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, quod aspernatur labore quos, quasi sit rerum numquam saepe provident iusto dolorem atque accusantium. Sint, perferendis. Pariatur vel enim facere vero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi distinctio adipisci, reiciendis magni consequatur dolor possimus alias odio reprehenderit quas esse repellat perspiciatis, dolorem inventore harum. Laborum, reprehenderit sed. Quidem!</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+          </div>
+          <div class="col-md-3">
+            <h3>Courses</h3>
+            <ul class="list-group">
+              <li>
+                Web design
+              </li>
+              
+              <li>
+                Web development
+              </li>
+              
+              <li>
+                android app development
+              </li>
+              
+              <li>
+                IOS app development
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            
+            <h3>Terms</h3>
+            <ul class="list-group">
+              <li>
+                Web design
+              </li>
+              
+              <li>
+                Web development
+              </li>
+              
+              <li>
+                android app development
+              </li>
+              
+              <li>
+                IOS app development
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            
+            <h3>Useful Link</h3>
+            <ul class="list-group">
+              <li>
+                Web design
+              </li>
+              
+              <li>
+                Web development
+              </li>
+              
+              <li>
+                android app development
+              </li>
+              
+              <li>
+                IOS app development
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
